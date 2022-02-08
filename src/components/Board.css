@@ -51,3 +51,12 @@ ul > li .flex {
 	border-radius: 15px;
 	box-shadow: 1px 10px 20px;
 }
+
+ul > li img {
+	border-radius: 50%;
+	width: 25%;
+}
+
+.upcoming {
+	margin-top: 1em;
+}
