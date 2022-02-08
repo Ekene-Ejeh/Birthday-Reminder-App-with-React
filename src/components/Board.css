@@ -18,7 +18,8 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	/* height: 100vh; */
+	/* i removed the 100vh height because i couldnt scroll down or up to see the full page */
 }
 
 #site-main .board {

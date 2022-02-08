@@ -41,7 +41,7 @@ export default function board() {
 			<h1 className="text-dark title">Birthday Reminder</h1>
 
 			<div className="board">
-				<List />
+				<List info={Info} />
 			</div>
 		</main>
 	);
