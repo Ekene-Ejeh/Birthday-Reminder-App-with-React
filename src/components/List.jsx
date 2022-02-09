@@ -13,7 +13,6 @@ function iterate(data) {
 	return (
 		<>
 			{data.map((person, index) => {
-				// old(person.birthday);
 				return (
 					<li key={index}>
 						<div className="flex">
