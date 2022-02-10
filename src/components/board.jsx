@@ -10,8 +10,8 @@ const Info = [
 	},
 	{
 		img: "https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-		name: "Miller Wright",
-		birthday: "2000-02-08",
+		name: "Maria Wright",
+		birthday: "2000-02-10",
 	},
 	{
 		img: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
@@ -20,7 +20,7 @@ const Info = [
 	},
 	{
 		img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-		name: "Freddie Watson",
+		name: "Elena Watson",
 		birthday: "1999-04-15",
 	},
 	{
@@ -30,8 +30,33 @@ const Info = [
 	},
 	{
 		img: "https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
-		name: "Brad Myers",
+		name: "Cindy Myers",
 		birthday: "1997-03-28",
+	},
+	{
+		img: "https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
+		name: "Jane Wright",
+		birthday: "2001-02-20",
+	},
+	{
+		img: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
+		name: "Tara Mark",
+		birthday: "1993-02-16",
+	},
+	{
+		img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
+		name: "Mary Watson",
+		birthday: "1999-05-25",
+	},
+	{
+		img: "https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
+		name: "Jane Baker",
+		birthday: "1995-04-15",
+	},
+	{
+		img: "https://images.unsplash.com/photo-1503185912284-5271ff81b9a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=facearea&facepad=4&w=256&h=256&q=60",
+		name: "Sandra Stone",
+		birthday: "1993-02-28",
 	},
 ];
 
@@ -56,7 +81,7 @@ function today(person) {
 		let day = new Date(data.birthday).getDate();
 		let month = new Date(data.birthday).getMonth();
 
-		return currentDay == day && currentMonth == month;
+		return currentDay === day && currentMonth === month;
 	});
 	return filter;
 }
